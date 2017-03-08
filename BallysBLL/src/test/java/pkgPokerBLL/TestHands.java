@@ -448,7 +448,7 @@ public class TestHands {
 		h.AddCardToHand(new Card(eRank.SEVEN,eSuit.DIAMONDS));
 		h.EvaluateHand();
 		
-		//Test if it's a high card
+		//Test if it's the high card
 		assertEquals(eHandStrength.HighCard.getHandStrength(),h.getHandScore()
 				.getHandStrength().getHandStrength());
 		
